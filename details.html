@@ -5,11 +5,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Lookalike</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 </head>
-<body>
-    
+<body> 
+    <header class="container">
+            <nav class="z-depth-0">
+                    <div class="nav-wrapper">
+                        <a href="home.html" class="deina brand-logo center">Deina's Bites</a>
+                        <ul id="nav-mobile" class="left hide-on-med-and-down">
+                            <li><a href="home.html">home</a></li>
+                            <li><a href="shopping.html">shop</a></li>
+                            <li><a href="about.html">about me</a></li>
+                        </ul>
+                        <ul class="right">
+                            <li><a href="http://www.instagram.com" target="_blank">instagram</a></li>
+                            <li><a href="http://www.facebook.com" target="_blank">facebook</a></li>
+                            <li><a href="http://www.youtube.com" target="_blank">youtube</a></li>
+                            <li><a><img class="bag" src="images/bag_icon.png"></a></li> 
+                        </ul>  
+                    </div>
+                  </nav>
+    </header>
+    <main class="main container">
+        <div class="content container">
+            <div class = "row">
+            <ul class="contentNav bodyLi col s6">
+                <li>Home / </li>
+                <li>SHOP  / </li>
+                <li class="gray">PAMESAN BITES</li>
+            </ul>
+            <ul class="contentNav bodyLi col s6 right-align">
+                    <li id="prevNex">&#8249; </li>
+                    <li>Prev </li>
+                    <li> | </li>
+                    <li> Next</li>
+                    <li id="prevNex">&#8250; </li>
+                </ul>
+            </div>
+            <div class = "row">
+                <div class="col s7">
+                    <img src="images/parm.png" class="imageDetail col s12">
+                    <div class="tinyImageDiv col s6">
+                        <a><img src="images/parm.png" class="imageDetail col s3"></a>
+                        <a><img src="images/parm-qv.png" class="imageDetail col s3"></a>
+                        <a><img src="images\box_lav_45.jpg" class="imageDetail col s3"></a>
+                    </div>  
+                    <div class="imageDetail col s12">
+                        <p class="bodyLi">
+                            I'm a product description.  I'm a great place to add more details about your product
+                            such as sizing, material, care instructions and cleaning instructions.
+                        </p>
+                    </div>
+                </div>
+                <div class="imageDetail col s5">
+                    <h3 class ="col s12">PARMESAN BITES</h3>
+                    <h3 class ="col s12" style="
+                    font-weight:  bold;">SKU: 0005</h3>
+                    <h4 class ="price col s12">$2.00</h4>
+                    <h4 class ="col s12">Quantity</h4>
+                    <input type="number" id="inputQty" class="col s3">
+                    <button type="submit" id="cartButton" class="col s12"><h5>ADD TO CART</h5></button>
+                    <ul class="z-depth-0 productInfoUL collapsible col s12">
+                        <li>
+                            <div class="productInfo collapsible-header">PRODUCT INFO</div>
+                            <div class="collapsible-body"><p>I'm a product detail.  I'm a great place to add more information about your product such as sizing, material, care and cleaning instrucitons.  this is also a great space to write what makes this product special and how your customers can benefit from this item</p></div>
+                        </li>
+                        <li>
+                            <div class="productInfo collapsible-header">REFUND INFO</div>
+                            <div class="collapsible-body"><p>I'm a Refund policy.  I'm a great place to let your customers know what to do in case they are dissatisfied with their purchase.  Having a straightforward refund or exchange policy is a great way to build trust and reassure your customers that they can buy with confidence.</p></div>
+                        </li>
+                        <li>
+                            <div class="productInfo collapsible-header">SHIPPING INFO</div>
+                            <div class="collapsible-body"><p>I'm a shipping policy.  I'm  a great place to add more information about your shipping methods, packaging, and cost.  Providing straightforward information about your shipping policy is a great way to build trust and reassure your customers that they can buy form you with confidence.</p></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="foot-back-color">
+            <div class= "container">
+              <div class="row">
+                <div class="col s3">
+                  <h6>shop<span class="small">:</span></h6>
+                  <ul class="bodyLi">
+                    <li >About</li>
+                    <li>FAQ</li>
+                    <li>Shipping / Pick Up</li>
+                    <li>Store Policy</li>
+                    <li>Contact Me</li>
+                    <br><br>
+                    <li>&copy; 2023 by Deina's Bites.</li>
+                  </ul>
+                </div>
+                <div class="col s3">
+                  <h6>opening hours<span class="small">:</span></h6>
+                  <ul class="bodyLi">
+                    <li>Mon - Fri: 7am - 10pm</li>
+                    <li>Saturday 8am - 10pm</li>
+                    <li>Sunday 8am - 11pm</li>
+                  </ul>
+                </div>
+                <div class="col s3">
+                  <h6>shop<span class="small">:</span></h6>
+                  <ul class="bodyLi">
+                    <li>500 Terry Francois Street</li>
+                    <li>San Fransisco, CA 94158</li>
+                    <li>Tel: 123-456-7890</li>
+                  </ul>
+                </div>
+                <div class="col s3">
+                  <br><br>
+                  <img src="images\fcbk.png" height="25" width="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images\instagram.png" height="25" width="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images\youtube.png" height="25" width="25">
+                </div>
+              </div>
+            </div>
+          </footer>
+          <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
         <script src="dist/app.js"></script>
+        <script>$(document).ready(function(){
+                $('.collapsible').collapsible();
+              });</script>
 </body>
 </html>

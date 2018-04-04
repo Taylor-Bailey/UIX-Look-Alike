@@ -1,13 +1,223 @@
 
 //  Colors  //
 $black: #191919;
+$gray: #f3f3f5;
 $green: #c0e8dd;
 $red: #fd69ea;
 $blue: #d2d5ea;
 $purp: #d29fbb;
+$footer: #fcf2f7;
 $white: white;
 
 // Fonts //
 @import url('https://fonts.googleapis.com/css?family=Nunito|PT+Serif');
-$header-font: 'PT Serif', serif;
-$para-font: 'Nunito', sans-serif;
+$para-font: 'PT Serif', serif;
+$header-font: 'Nunito', sans-serif;
+
+// Main Styles //
+body, h1, h3, h4 {
+font-family: $header-font;
+color: $black !important;
+}
+
+h1 {
+font-size: 25px;
+}
+
+h2 {
+font-size: 18px;
+font-family: $para-font;
+color: $black !important;
+
+}
+
+h3 {
+    font-size: 18px;
+    font-family: $header-font;
+    color: $black !important;
+    margin: 0 0 10px 0!important;
+
+}
+
+h4 {
+font-size: 13px;
+font-family: $para-font;
+}
+
+h5 {
+    font-size: 12px;
+font-family: $para-font;
+}
+
+p {
+font-family: $para-font;
+font-size: 11px;
+font-weight: bold;
+}
+
+.nav-wrapper {
+background-color: $white !important;
+margin-top: 2em;
+}
+
+.deina{
+font-family: $para-font !important;
+font-size: 22px !important;
+color: $black !important;
+text-decoration: none !important;
+}
+
+nav ul li a{
+color: $black !important;
+font-size: 16px !important;
+padding: 0 10px !important;
+font-variant:small-caps;
+}
+
+nav ul li:hover{
+    background-color: $white !important;
+    }
+nav ul li a:hover{
+    background-color: $white !important;
+}
+
+
+a {
+color: $black;
+}
+
+.bag {
+    width: 18px;
+}
+
+.main {
+    background-color: $gray;
+    width: 85%;
+    margin-top: 1em;
+    height: 850px;
+}
+
+.content {
+    margin-top: 2em;
+}
+.content .row {
+    margin: 1em 0;
+}
+
+.contentNav{
+ margin: 7em 0 2em 0;
+ font-size: 12px;
+}
+.contentNav li {
+    display: inline-block;
+    font-family: $para-font;
+}
+
+.gray{
+    color: rgba(25, 25, 25, .3);
+}
+
+#prevNex {
+    font-family: $header-font;
+    margin: 0 5px;
+    font-weight: lighter;
+}
+
+.imageDetail{
+padding-left: 0 !important;
+}
+
+.tinyImageDiv{
+    padding-top: 10.5px !important;
+    padding-left: 0 !important;
+}
+
+.price {
+    margin-bottom: 6em;
+}
+
+#inputQty{
+    background-color: white;
+    border: 1px solid rgba(25, 25, 25, .3) !important;
+    margin-left: 10.5px;
+    padding-left: 10.5px;
+}
+
+#inputQty, textarea, select { 
+    outline: none !important;
+    border: 1px solid rgba(25, 25, 25, .3) !important;
+}
+
+#inputQty:focus{
+    outline: none !important;
+    border: 1px solid rgba(25, 25, 25, .3) !important;
+}
+
+#cartButton {
+    background-color: black;
+    border: none;
+    border-radius: 0;
+    margin: 15px 0 15px 10.5px;
+}
+
+#cartButton h5 {
+    color: white !important;
+    margin: 16.6px !important;
+}
+
+.productInfoUL{
+    background-color: $gray !important;
+    border: none;
+    margin-left: 10.5px !important;
+    margin-top: 15px;
+    padding: 0 !important;
+}
+
+.productInfoUL li {
+    border-top: 1px solid black;
+}
+
+.productInfoUL:last-child {
+    border-bottom: 1px solid black;
+}
+
+.productInfoUL li div {
+    background-color: $gray !important;
+    border: none !important;
+    padding: 1.4em 0 !important;
+
+}
+
+.productInfo:focus{
+    outline:none;
+}
+
+//FOOTER
+
+.foot-back-color {
+    background-color: $footer !important;
+    width: 85%;
+    margin:auto;
+}
+footer {
+    color: black !important;
+    font-family: $para-font;
+    font-size: 12px;
+    line-height: 200%;
+    padding-top: 5em;
+    padding-bottom: 3em;
+}
+footer h6 {
+    font-variant: small-caps;
+    font-family: $header-font;
+}
+
+.small {
+    font-size: 10px;
+}
+
+.bodyLi {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
