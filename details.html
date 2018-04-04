@@ -69,15 +69,15 @@
                     <button type="submit" id="cartButton" class="col s12"><h5>ADD TO CART</h5></button>
                     <ul class="z-depth-0 productInfoUL collapsible col s12">
                         <li>
-                            <div class="productInfo collapsible-header">PRODUCT INFO</div>
+                            <div class="productInfo collapsible-header"><span class="col s11">PRODUCT INFO</span><span class="col s1">&#43;</span></div>
                             <div class="collapsible-body"><p>I'm a product detail.  I'm a great place to add more information about your product such as sizing, material, care and cleaning instrucitons.  this is also a great space to write what makes this product special and how your customers can benefit from this item</p></div>
                         </li>
                         <li>
-                            <div class="productInfo collapsible-header">REFUND INFO</div>
+                            <div class="productInfo collapsible-header"><span class="col s11">REFUND INFO</span><span class="col s1">&#43;</span></div>
                             <div class="collapsible-body"><p>I'm a Refund policy.  I'm a great place to let your customers know what to do in case they are dissatisfied with their purchase.  Having a straightforward refund or exchange policy is a great way to build trust and reassure your customers that they can buy with confidence.</p></div>
                         </li>
                         <li>
-                            <div class="productInfo collapsible-header">SHIPPING INFO</div>
+                            <div class="productInfo collapsible-header"><span class="col s11">SHIPPING INFO</span><span class="col s1">&#43;</span></div>
                             <div class="collapsible-body"><p>I'm a shipping policy.  I'm  a great place to add more information about your shipping methods, packaging, and cost.  Providing straightforward information about your shipping policy is a great way to build trust and reassure your customers that they can buy form you with confidence.</p></div>
                         </li>
                     </ul>
@@ -123,14 +123,28 @@
               </div>
             </div>
           </footer>
-          <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-        <script src="dist/app.js"></script>
-        <script>$(document).ready(function(){
-                $('.collapsible').collapsible();
-              });</script>
+
+    <!-- CDN's -->
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="dist/app.js"></script>
+
+    <!-- Functions -->
+        <script>
+            $(document).ready(function(){    
+            $('.collapsible').collapsible();
+            });
+        </script>
+
+        <script>  
+            $(document).ready(function(){
+            $('.sidenav').sidenav();
+            });
+        </script>
 </body>
 </html>

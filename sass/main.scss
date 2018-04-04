@@ -187,7 +187,9 @@ padding-left: 0 !important;
     padding: 1.4em 0 !important;
 
 }
-
+.productInfo span{
+    padding-left: 0 !important;
+}
 .productInfo:focus{
     outline:none;
 }
@@ -220,4 +222,18 @@ footer h6 {
     text-decoration: none;
     font-weight: bold;
     color: black;
+}
+
+//thanks page
+
+.thanks{
+    font-size: 20px;
+    margin-top: 3.5em;
+}
+
+.thanks2{
+    font-weight: bold !important;
+    font-family: $header-font;
+    font-size: 20px;
+    margin-top: 2em;
 }
